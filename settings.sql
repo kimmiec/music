@@ -1,0 +1,3 @@
+CREATE DATABASE music;
+CREATE USER musicuser WITH PASSWORD 'music';
+GRANT ALL PRIVILEGES ON DATABASE music TO musicuser;
